@@ -5,10 +5,10 @@ console.log(`You number - ${number}`);  Интерполяция строк
 */
 const numberOfFilms = +prompt('Сколько фильмов Вы посмотрели?', '');
 
-const personalMovieDB = {
+const personalMovieDB = { 
     count: numberOfFilms,
     movies: {},
-    actors: {},
+    actors: {}, 
     genres: [],
     privat: false
 };
