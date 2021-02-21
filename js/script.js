@@ -31,16 +31,16 @@ const personalMovieDB = {
 
 
 function rememberMyFilms() {
-    for (let i = 0; i < 2; i++) {
+    for (let k = 0; k < 2; k++) {
         const a = prompt('Один из последних просмотренных фильмов?', ''),
-              b = prompt('На сколько оцените его?', '');
-    
+            b = prompt('На сколько оцените его?', '');
+
         if (a != null && b != null && a != '' && b != '' && a.length < 50) {
             personalMovieDB.movies[a] = b;
             console.log('done');
         } else {
             console.log('error');
-            i--;
+            k--;
         }
     }
 }
@@ -61,7 +61,7 @@ function detectPersonalLevel() {
 
 detectPersonalLevel();
 
-function showMyDB (hidden) {
+function showMyDB(hidden) {
     if (!hidden) {
         console.log(personalMovieDB);
     }
