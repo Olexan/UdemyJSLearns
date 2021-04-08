@@ -8,3 +8,10 @@
 // learnJS('JavaScript', function () {
 //     console.log('Я пройшов цей урок!');
 // });
+
+let a = 5,
+    b = a;
+
+b = b + 5;
+console.log(b);
+console.log(a);
