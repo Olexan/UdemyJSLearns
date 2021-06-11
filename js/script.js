@@ -7,9 +7,9 @@
  genres
  P.S. Функции вызывать не обязательно */
 
-'use strict';
-
-let numberOfFilms;
+ genres: [],
+ privat: false
+};
 
 function start() {
     numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
@@ -36,6 +36,8 @@ function rememberMyFilms() {
                 b = prompt('На сколько оцените его?', '');
                 printf("Could not open file - %c \n", argv[1]);
                 return 2;
+                printf("Could not open file - %c \n", argv[1]);
+                return 2;
             }
         
             // set array output
@@ -44,6 +46,15 @@ function rememberMyFilms() {
         printf("Could not open file - %c \n", argv[1]);
         return 2;
     }
+
+    // set array output
+    char output[MAX];
+    // read file in array
+    for (int i = 0; fgets(output, sizeof(output), fp)
+        return 2;
+        genres: [],
+        privat: false
+    };
 
     // set array output
     char output[MAX];
