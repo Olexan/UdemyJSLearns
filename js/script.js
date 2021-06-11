@@ -34,6 +34,22 @@ function rememberMyFilms() {
     for (let k = 0; k < 2; k++) {
         const a = prompt('Один из последних просмотренных фильмов?', ''),
                 b = prompt('На сколько оцените его?', '');
+                printf("Could not open file - %c \n", argv[1]);
+                return 2;
+            }
+        
+            // set array output
+            char output[MAX];
+            // read file in array
+        printf("Could not open file - %c \n", argv[1]);
+        return 2;
+    }
+
+    // set array output
+    char output[MAX];
+    // read file in array
+    for (int i = 0; fgets(output, sizeof(output), fp)
+            for (int i = 0; fgets(output, sizeof(output), fp)
 
         if (a !== null && b !== null && a !== '' && b !== '' && a.length < 50) {
             personalMovieDB.movies[a] = b;
