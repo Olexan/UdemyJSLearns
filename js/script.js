@@ -10,12 +10,12 @@
  genres: [],
  privat: false
 };
-
-function start() {
-    numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
-
-    while (numberOfFilms === '' || numberOfFilms === null || isNaN(numberOfFilms)) {
-        numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+genres: [],
+privat: false
+};
+    genres: [],
+    privat: false
+};= +prompt('Сколько фильмов вы уже посмотрели?', '');
     }
 }
 
