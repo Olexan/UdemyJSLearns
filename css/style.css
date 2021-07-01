@@ -1,11 +1,13 @@
 /* Main style file */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    color: #000000;
+
+body {
+  color: #000000;
 }
-.arrr{
-    display: flex;
+
+.arrr {
+  display: flex;
 }
