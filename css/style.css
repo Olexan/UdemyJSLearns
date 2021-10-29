@@ -4,10 +4,6 @@
   padding: 0;
 }
 
-body {
-  color: #000000;
-}
-
-.arrr {
-  display: flex;
+.ar {
+  color: red;
 }

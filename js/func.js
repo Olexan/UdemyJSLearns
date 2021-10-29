@@ -1,5 +1,7 @@
 "use strict";
 
-const box = document.getElementById("h1");
+let incr = 10,
+  decr = 10;
 
-console.log("h1");
+console.log(incr++);
+console.log(decr--);

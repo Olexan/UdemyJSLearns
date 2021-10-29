@@ -7,18 +7,6 @@
  genres
  P.S. Функции вызывать не обязательно */
 
- genres: [],
- privat: false
-};
-genres: [],
-privat: false
-};
-    genres: [],
-    privat: false
-};= +prompt('Сколько фильмов вы уже посмотрели?', '');
-    }
-}
-
 start();
 
 const personalMovieDB = {
