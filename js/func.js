@@ -13,4 +13,4 @@
 // } else {
 //     console.log("false");
 // }
-console.log(0 || "" || 2 || undefined || true || falsе);
+console.log(0 || "" || 2 || undefined || true || false);
