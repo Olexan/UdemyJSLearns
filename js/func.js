@@ -1,17 +1,16 @@
 "use strict";
+// let x = 5;
+// console.log (2 && 1 && null && 0 && undefined);
 
-/* let incr = 10,
-  decr = 10;
+// let y = 1; 
+// let x = y = 2; 
+// console.log(x);
 
-console.log(incr++);
-console.log(incr++); */
-/* 
-function showHelloWorld(text) {
-  console.log(text);
-}
-
-showHelloWorld("Hello World!!");
- */
-
-const str = 'Олександр';
-console.log(str.slice(2,10));
+// let a = [1, 2, 3]; 
+// let b = [1, 2, 3]; 
+// if ("Ёжик" > "яблоко"){
+//     console.log("true");
+// } else {
+//     console.log("false");
+// }
+console.log(0 || "" || 2 || undefined || true || falsе);
